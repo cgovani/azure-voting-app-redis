@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: azure-vote-front
-        image: conregtst.azurecr.io/azure-vote-front:66
+        image: conregtst.azurecr.io/azure-vote-front
         ports:
         - containerPort: 80
         resources:
